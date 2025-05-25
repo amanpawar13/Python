@@ -1,24 +1,19 @@
-# Assignment 1: Basic Python Concepts
+# Assignment 2: Module 3: Control Structures in Python
 
-### ✅ Task 1: Perform Basic Mathematical Operations
+## 📌 Task 1: Check if a Number is Even or Odd
 
-**Objective**:  
-Create a Python program that:
-1. Takes two numbers as input from the user.
-2. Performs the following operations:
-   - Addition
-   - Subtraction
-   - Multiplication
-   - Division
-3. Displays the result of each operation.
+### ✅ Problem Statement:
+Write a Python program that:
+1. Takes an integer input from the user.
+2. Checks whether the number is **even or odd** using an `if-else` statement.
+3. Displays the result accordingly.
 
 
----
 
-### ✅ Task 2: Create a Personalized Greeting
+## 📌 Task 2: Sum of Integers from 1 to 50 Using a Loop
 
-**Objective**:  
-Create a Python program that:
-1. Accepts the user's first name and last name as input.
-2. Concatenates them into a full name.
-3. Prints a personalized greeting using the full name.
+### ✅ Problem Statement:
+Write a Python program that:
+1. Uses a `for` loop to iterate over numbers from 1 to 50.
+2. Calculates the **sum of all integers** in this range.
+3. Displays the final sum.
