@@ -1,14 +1,7 @@
-a = input("Enter the first number: ")
-b = input("Enter the Second number: ")
-a=float(a)
-b=float(b)
 
-a1= a+b
-s= a-b
-m = a*b
-d = a/b
+n = int(input("Enter a number: "))
 
-print("Addition :",a1)
-print("Subtraction :",s)
-print("Multiplication :",m)
-print("Division :",d)
+if n / 2 == n // 2:
+    print('Number is Even')
+else :
+    print('Number is Odd')
