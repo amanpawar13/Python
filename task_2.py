@@ -1,4 +1,9 @@
-a = input ("Please enter your first name: ")
-b = input("PLease enter your second name: ")
+import math
 
-print("Hello,\n"+ a  +" "+ b+"!\n"+"Welcome to my first Python program." )
+n = int(input("Please enter the number: "))
+
+print("Square Root is : ",math.sqrt(n))
+
+print("Logarithm is : ",math.log(n))
+
+print("Sine is :",math.sin(n))
