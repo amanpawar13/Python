@@ -18,7 +18,7 @@ Uses a loop to compute the factorial.
 
 Handles edge cases (e.g., factorial of 0 is 1).
 
-
+------------------------------------
 
 Task 2: Using the Math Module for Calculations
 
