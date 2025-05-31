@@ -1,14 +1,11 @@
-a = input("Enter the first number: ")
-b = input("Enter the Second number: ")
-a=float(a)
-b=float(b)
 
-a1= a+b
-s= a-b
-m = a*b
-d = a/b
+n1 = int(input("Please enter the number: "))
+def factorial(n1):
 
-print("Addition :",a1)
-print("Subtraction :",s)
-print("Multiplication :",m)
-print("Division :",d)
+    if n1 < 2 :
+        return 1
+    else:
+        return n1 * factorial(n1 - 1)
+result =  factorial(n1)
+print("Factorial of",n1,"is:",result)
+
