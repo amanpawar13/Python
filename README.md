@@ -8,10 +8,8 @@ Write a Python program that:
 
 **Expected Behavior:**
 
-- **If the file exists**: The program will display each line of
--    `sample.txt` one by one.
-- **If the file does not exist**: An appropriate error message like
--    `"Error: The file 'sample.txt' was not found."` will be displayed instead of crashing.
+- **If the file exists**: The program will display each line of `sample.txt` one by one.
+- **If the file does not exist**: An appropriate error message like `"Error: The file 'sample.txt' was not found."` will be displayed instead of crashing.
 
 📄 **Script:** `read_file.py`
 
@@ -21,8 +19,7 @@ Write a Python program that:
 
 **Problem Statement:**
 Write a Python program that:
-1. Takes user input and writes it to a file named
-2.    `output.txt`.
+1. Takes user input and writes it to a file named `output.txt`.
 3. Appends additional user input to the same file.
 4. Reads and displays the final content of the file.
 
